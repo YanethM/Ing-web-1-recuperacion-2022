@@ -1,0 +1,36 @@
+ul{
+    /* Menú vertical */
+    list-style-type: none;
+    /* margin-top, margin-bottom, margin-left, margin-right */
+    margin: 4px;
+    padding: 6px;
+    width: 200px;
+    background-color: lightgray;
+}
+
+li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: gray;
+    color: azure;
+}
+
+/* .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container_card{
+    padding: 2px 16px;
+} */
