@@ -1,0 +1,13 @@
+/* Navegamos a la etiqueta nav y luego a clase del div */
+nav .nav-wrapper{
+    background-color: lightgrey;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 18px;
+}
+
+.card .card-image{
+    height: 200px;
+}
