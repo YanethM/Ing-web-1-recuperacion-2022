@@ -1,0 +1,80 @@
+.nav-wrapper {
+  background-color: lightgray;
+}
+.nav-wrapper ul li a {
+  color: black;
+  font-size: 18px;
+}
+
+.card-image img {
+  height: 500px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+}
+
+.navigation ul li {
+  margin: 20px;
+  color: white;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  filter: blur(5px) brightness(50%);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.boxes {
+  border: 5px solid black;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 0 0 4px 8px black;
+  transition: 300ms all;
+  background-size: cover;
+  background-position: center;
+}
+
+.box-content {
+  background-color: beige;
+  padding: 10px 8px;
+  text-align: center;
+  width: 250px;
+  transition: 300ms all;
+}
+
+.boxes:hover {
+  transform: scale(1.1);
+}
+
+.boxes:hover .box-content {
+  background-color: transparent;
+  color: darkgray;
+}
