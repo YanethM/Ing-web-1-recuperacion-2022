@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col input-field s6">
+          <input type="text" name="productName" id="productName" />
+          <label for="productName">Producto</label>
+        </div>
+        <div class="col input-field s6">
+          <input type="number" name="productStock" id="productStock" />
+          <label for="productStock">Stock</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col input-field">
+          <input type="file" name="imageProduct" id="imageProduct" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 input-field">
+          <textarea
+            id="productDescription"
+            class="materialize-textarea"
+            data-length="120"
+          ></textarea>
+          <label for="productDescription">Descripción</label>
+        </div>
+      </div>
+
+      <div class="row center">
+        <button id="btnAddProduct">Añadir</button>
+      </div>
+      <div class="container_custom">
+        <div id="listProducts"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/new_card.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
