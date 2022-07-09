@@ -10,7 +10,7 @@ const descripcionCards = [
 ];
 const imagenCards = ["img1", "img2", "img3", "img4", "img5", "img6"];
 
-const contenidoCard = document.querySelector(".container");
+const contenidoCard = document.querySelector(".container_custom");
 for (let index = 0; index < tituloCards.length; index++) {
   const fetch = document.querySelector(".container").innerHTML;
   contenidoCard.innerHTML =
